@@ -30,8 +30,6 @@ const styles = (theme => ({
 
 }))
 
-
-
 class Header extends Component {
     constructor() {
         super();
@@ -54,7 +52,7 @@ class Header extends Component {
 
     // This method is called when text is entered into search input, 
     onSearchChangeHandler = (event) => {
-        this.props.onSearchTextChange(event.target.value);
+        this.props.onSearchTextChangeHandler(event.target.value);
     }
 
     //This method is called when log out is clicked in the menu 
