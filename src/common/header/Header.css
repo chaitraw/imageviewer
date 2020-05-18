@@ -1,0 +1,70 @@
+.horizontal-line {
+    border-bottom: groove;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#search-icon {
+    height: 27px;
+    padding: 0px 0px 0px 10px;
+}
+
+.MuiMenu-list {
+    outline: 0;
+    background: rgb(223,223,223);
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.app-header {
+    display: flex;
+    height: 40px;
+    background-color : #263238;
+    line-height: 40px;
+    padding: 20px;
+    align-items: center;
+}
+
+#app-logo {
+    color: #fff;
+    font-size: 18px;
+    text-decoration-line: none; 
+}
+
+.header-searchbox {
+
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    align-self: flex-start;
+    background-color: #c0c0c0;
+    border-radius: 4px;
+    height: 40px;
+}
+
+.header-searchbox-false {
+    margin-left: auto
+}
+
+#profile-icon {
+    margin-left: 40px;
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border: solid;
+    border-color: white;
+    border-width: thin;
+
+}
+
+#profile-picture {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+#profile-menu {
+    margin-top: 50px;
+    padding: 0px;
+}
