@@ -49,7 +49,7 @@ const styles = (theme => ({
         'font-weight': '600',
     },
 
-    addCommentBtn: {
+    addCommentButton: {
         "margin-left": "15px",
     },
 
@@ -296,9 +296,9 @@ class Home extends Component {
                                             ))}
 
                                             <FormControl className={classes.comment} fullWidth={true}>
-                                                <InputLabel htmlFor="comment" >Add a comment</InputLabel>
-                                                <Input id="comment" className="comment-text" name="commentText" onChange={(event) => this.onCommentTextChangeHandler(event, image.id)} value={image.id === this.state.commentText.id ? this.state.commentText.text : ""} />
-                                                <Button variant="contained" color="primary" className={classes.addCommentBtn} onClick={() => this.onClickAddButtonHandler(image.id)}>
+                                                <InputLabel htmlFor={image.id} >Add a comment</InputLabel>
+                                                <Input id={image.id} className="comment-text" name="commentText" onChange={(event) => this.onCommentTextChangeHandler(event, image.id)} value={image.id === this.state.commentText.id ? this.state.commentText.text : ""} />
+                                                <Button variant="contained" color="primary" className={classes.addCommentButton} onClick={() => this.onClickAddButtonHandler(image.id)}>
                                                     ADD
                                                 </Button>
                                             </FormControl>
